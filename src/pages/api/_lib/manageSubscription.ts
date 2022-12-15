@@ -1,8 +1,6 @@
 import { fauna } from "../../../services/fauna";
 import { query as q } from 'faunadb'
 import { stripe } from "../../../services/stripe";
-import Router from "next/dist/next-server/server/router";
-
 
 interface SubscriptionRef{
   id: string;
