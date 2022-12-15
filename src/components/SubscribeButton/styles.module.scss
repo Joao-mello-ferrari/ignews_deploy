@@ -1,0 +1,17 @@
+.button{
+  height: 4rem;
+  border-radius: 4rem;
+  border: 0;
+
+  background: var(--yellow-500);
+  padding: 1rem 4rem;
+
+  font-weight: 700;
+  color: var(--gray-900);
+
+  transition: filter 0.2s;
+
+  &:hover{
+    filter: brightness(0.6);
+  }
+}
